@@ -41,7 +41,7 @@
     margin: 0 auto;
     border-radius: $slot-border-radius;
     @include shadow('large');
-    background: $color-slot-background url(@images/light-blubs.svg);
+    background: #003896 url(@images/light-blubs.svg);
     position: relative;
     z-index: $z-index-slot; // make sure slot is on top of sunburst
   }
