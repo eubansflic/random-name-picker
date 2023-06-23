@@ -40,7 +40,9 @@ body {
 }
 
 .theme--red {
-  background: #4DC3E9;
+  background-image: url('../images/Propelme Raffle Background-01.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   color: $color-text-light;
 }
 
@@ -67,13 +69,22 @@ body {
 }
 
 .footer {
-  width: 100%;
+  width: auto;
   padding: 0.3125rem;
   font-size: 1.5rem;
   text-align: center;
   box-sizing: border-box;
   flex: 0 1 auto;
-  color: #FFFFFF;
+  color: whitesmoke;
+  background: #003896;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+  font-style: italic;
 }
 
 a {

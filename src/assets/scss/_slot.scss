@@ -28,6 +28,7 @@
 
   .icon-button {
     margin: 0 0 0 1.5rem;
+    color: #003896;
   }
 }
 
@@ -54,6 +55,7 @@
     position: relative;
     overflow: hidden;
     padding: $slot-inner-padding;
+    color: #003896;
   }
 
   &__shadow {

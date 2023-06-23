@@ -35,7 +35,7 @@ module.exports = merge(baseWebpackConfig, {
   },
   devServer: {
     inline: true,
-    host: '0.0.0.0',
+    host: 'localhost',
     port: 8888,
     overlay: {
       warnings: false,

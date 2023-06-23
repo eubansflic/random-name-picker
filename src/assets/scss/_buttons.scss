@@ -1,6 +1,5 @@
 .solid-button {
   display: inline-block;
-  border: none;
   appearance: none;
   @include shadow('large') border-radius: 0.625rem;
   background-color: #003896;
@@ -17,7 +16,8 @@
   outline: none;
 
   &:hover {
-    background-color: #FFFFFF;
+    border: 2px solid #003896;
+    background-color: #ffffff;
     color: #003896;
   }
 
